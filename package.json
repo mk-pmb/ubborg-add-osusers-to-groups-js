@@ -1,0 +1,32 @@
+{ "name": "ubborg-add-osusers-to-groups",
+  "version": "0.0.1",
+  "description": "Simplify adding existing osUsers to groups.",
+  "keywords": [
+    "group",
+    "osuser",
+    "ubborg"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/ubborg-add-osusers-to-groups-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/ubborg-add-osusers-to-groups-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/ubborg-add-osusers-to-groups-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "add.mjs",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
