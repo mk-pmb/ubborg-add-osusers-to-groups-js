@@ -1,5 +1,5 @@
 { "name": "ubborg-add-osusers-to-groups",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simplify adding existing osUsers to groups.",
   "keywords": [
     "group",
@@ -19,12 +19,13 @@
 
   "private": false, "license": "ISC",
 
-  "main": "add.mjs",
-  "scripts": { "test": "nodemjs test/all.mjs" },
+  "main": "add.js",
+  "scripts": { "test": "node test/basics.js" },
   "directories": { "test": "test" },
 
   "dependencies": {},
   "devDependencies": {
+    "equal-pmb": "^0.1.23"
   },
 
 
