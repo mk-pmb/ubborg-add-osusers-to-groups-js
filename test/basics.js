@@ -21,7 +21,7 @@ var addOsUsersToGroups = require('..'), eq = require('equal-pmb'),
   ];
 
   r = addOsUsersToGroups(u, g);
-  eq(r, s);
+  eq.lists(r, s);
 
   r = addOsUsersToGroups(u, g, tu.bundleStub);
   eq(r, { t: 'osUserGroupMembership', a: s, specs: s });
